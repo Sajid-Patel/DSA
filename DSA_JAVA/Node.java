@@ -1,15 +1,17 @@
-package com.queue;
+package com.stack;
 
-//QueueDemo1 through Singly ArrayList
+//StackDemo1  through Singly ArrayList
 
-//insert from last 
-// delete from first
+//insert at begining 
+//delete from last
+
 public class Node {
-	public Object data;
-	public Node previous;
+	int data;
+	Node below;
 
-	public Node(int data) {
+	Node(int data) {
 		this.data = data;
-		this.previous = null;
+		this.below = null;
 	}
+
 }
